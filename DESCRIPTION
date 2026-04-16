@@ -1,0 +1,39 @@
+Package: LINGUINE
+Title: LINkage GroUps INfErence for Ancestral Genomes
+Version: 1.0.0
+Authors@R: c(
+    person("Carlos", "Vargas-Chávez", email = "carlos.vargas@ibe.upf-csic.es", role = c("aut", "cre")),
+    person("Rosa", "Fernández", role = "aut")
+  )
+Description: A phylogeny-aware pipeline for robust ancestral linkage group (ALG) reconstruction. 
+    LINGUINE is specifically designed to handle clades characterized by rapid genome evolution, 
+    extensive chromosomal rearrangements, and whole-genome duplications (WGDs). By utilizing 
+    full orthogroups rather than restricting to single-copy genes, employing a Hidden Markov Model 
+    (HMM) framework to delineate syntenic blocks, and utilizing an iterative post-order traversal 
+    of the species tree, LINGUINE resolves complex paralogy and prevents the systematic inflation 
+    of inferred ALG counts.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    dplyr,
+    tidyr,
+    stringr,
+    purrr,
+    rlang,
+    ggplot2,
+    HMM,
+    igraph,
+    ape,
+    phytools,
+    Biostrings,
+    data.table,
+    scales,
+    RColorBrewer,
+    grDevices,
+    stats,
+    gtools
+Suggests: 
+    RIdeogram,
+    rsvg
