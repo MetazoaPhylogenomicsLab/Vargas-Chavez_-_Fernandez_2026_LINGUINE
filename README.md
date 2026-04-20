@@ -29,7 +29,7 @@ You can install the development version of LINGUINE from GitHub using `devtools`
 
 ```r
 # install.packages("devtools")
-devtools::install_github("cvargas88/LINGUINE")
+devtools::install_github("MetazoaPhylogenomicsLab/Vargas-Chavez_-_Fernandez_2026_LINGUINE")
 ```
 
 ## 🚀 Quick Start & Configuration
